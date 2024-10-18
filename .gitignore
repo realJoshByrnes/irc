@@ -2,5 +2,6 @@
 node_modules/
 
 # Build artifacts
+/tsconfig.tsbuildinfo
 /packages/*/dist
 /packages/*/tsconfig.tsbuildinfo
