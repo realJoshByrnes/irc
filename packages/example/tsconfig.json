@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json", // Inherit from root tsconfig.json
+
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  }
+}

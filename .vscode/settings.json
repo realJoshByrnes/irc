@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true, // Enable format on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Set Prettier as the default formatter
+  "[javascript]": {
+    // Configure ESLint for JavaScript files
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    // Configure ESLint for TypeScript files
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.format.enable": true, // Enable ESLint formatting
+  "eslint.validate": [
+    // Specify file types for ESLint validation
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "IDX.aI.enableInlineCompletion": true,
+  "IDX.aI.enableCodebaseIndexing": true
+}

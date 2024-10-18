@@ -1,1 +1,6 @@
+# NPM
 node_modules/
+
+# Build artifacts
+/packages/*/dist
+/packages/*/tsconfig.tsbuildinfo
